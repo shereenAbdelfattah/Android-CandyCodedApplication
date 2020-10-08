@@ -9,6 +9,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
@@ -61,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onSuccess(int statusCode, Header[] headers, String response) {
                         Log.d("AsyncHttpClient", "response = " + response);
-                        Gson gson = new GsonBuilder().create();;
+                        Gson gson = new GsonBuilder().create();
                         candies = gson.fromJson(response, Candy[].class);
 
                         addCandiesToDatabase(candies);
@@ -80,8 +81,20 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
     // ***
-    // TODO - Task 1 - Show Store Information Activity
+    //  Task 1 - Show Store Information Activity completed
     // ***
+
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        if(item.getItemId() == R.id.info) {
+            Intent infoInten = new Intent(MainActivity.this, InfoActivity.class);
+            startActivity(infoInten);
+        }
+        return super.onOptionsItemSelected(item);
+
+    }
 
     private void addCandiesToDatabase(Candy[] candies) {
         SQLiteDatabase db = candyDbHelper.getWritableDatabase();
