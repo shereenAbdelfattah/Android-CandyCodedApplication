@@ -11,7 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0b7633b6-91c2-4d9c-80c2-5897a3f35d39" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/InfoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/InfoActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/DetailActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/DetailActivity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602197015319</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Completed module">
+      <created>1602197350602</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602197350602</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -186,13 +193,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1602190888663" />
-    <state x="309" y="0" key="CommitChangelistDialog2" timestamp="1602197013982">
+    <state x="309" y="0" key="CommitChangelistDialog2" timestamp="1602197349122">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="309" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1602197013982" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1602197029100">
+    <state x="309" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1602197349122" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1602197358943">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1602197029100" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1602197358943" />
   </component>
 </project>
