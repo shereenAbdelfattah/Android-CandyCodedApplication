@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         Cursor cursor = db.rawQuery("SELECT * FROM candy", null);
 
         final CandyCursorAdapter adapter = new CandyCursorAdapter(this, cursor);
-        ListView listView = (ListView)this.findViewById(R.id.list_view_candy);
+        ListView listView = findViewById(R.id.list_view_candy);
 
         listView.setAdapter(adapter);
 
@@ -81,16 +81,16 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
     // ***
-    //  Task 1 - Show Store Information Activity completed
+    // TODO - Task 1 - Show Store Information Activity completed
     // ***
-
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 
         if(item.getItemId() == R.id.info) {
-            Intent infoInten = new Intent(MainActivity.this, InfoActivity.class);
-            startActivity(infoInten);
+            Intent infoIntent = new Intent(MainActivity.this, InfoActivity.class);
+            startActivity(infoIntent);
+            return true;
         }
         return super.onOptionsItemSelected(item);
 
